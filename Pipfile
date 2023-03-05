@@ -1,0 +1,63 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bokeh = "==2.4.3"
+boto3 = "==1.24.59"
+cachetools = "*"
+control = "==0.9.1"
+coverage = "*"
+descartes = "*"
+docker = "*"
+fiona = "*"
+geopandas = ">=0.12.1"
+grpcio = "==1.43.0"
+grpcio-tools = "==1.43.0"
+guppy3 = "==3.1.2"
+joblib = "*"
+matplotlib = "*"
+mock = "*"
+numpy = ">=1.21.1"
+pandas = "*"
+pillow = "*"
+pre-commit = "*"
+psutil = "*"
+pyarrow = "*"
+pyinstrument = "*"
+pyogrio = "*"
+pyquaternion = ">=0.9.5"
+pytest = "*"
+rasterio = "*"
+ray = "*"
+requests = "*"
+retry = "*"
+rtree = "*"
+s3fs = "*"
+scipy = "*"
+selenium = "*"
+shapely = ">=2.0.0"
+sqlalchemy = ">=1.4.27"
+sympy = "*"
+testbook = "*"
+tornado = "*"
+tqdm = "*"
+typer = "*"
+ujson = "*"
+urllib3 = "*"
+
+jupyter = "*"
+jupyterlab = "*"
+
+casadi = {file = "https://github.com/casadi/casadi/releases/download/nightly-develop/casadi-3.5.5.dev+develop-cp39-none-macosx_11_0_arm64.whl"}
+opencv-python = "*"
+hydra-core = "*"
+
+# nuplan-devkit = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.16"
